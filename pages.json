@@ -1,0 +1,308 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// 登录
+		{
+			"path": "pages/login/login",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+			}
+		},
+		// 切换栏首页---------------------》
+		{
+			"path": "pages/tabbar/index",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+				// "enablePullDownRefresh": true, //设置参数为true,触底函数
+				// "onReachBottomDistance":50 //距离底部多远时触发 单位为px
+			}
+		},
+		// 管理站点列表页面---------------------》
+		{
+			"path": "pages/selectsite/index",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				},
+				"enablePullDownRefresh": true, //设置参数为true,触底函数
+				"onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 管理站点详情--------------------》
+		{
+			"path": "pages/selectsite/item",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+				// "enablePullDownRefresh": true, //设置参数为true,触底函数
+				// "onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 管理站点打卡记录--------------------》
+		{
+			"path": "pages/selectsite/clockingRecord",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+				// "enablePullDownRefresh": true, //设置参数为true,触底函数
+				// "onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 管理站点打卡记录-详情--------------------》
+		{
+			"path": "pages/selectsite/clockingRecordDetails",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+			
+				// "enablePullDownRefresh": true, //设置参数为true,触底函数
+				// "onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 管理站点报警记录-列表--------------------》
+		{
+			"path": "pages/selectsite/warningrecord",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+				// "enablePullDownRefresh": true, //设置参数为true,触底函数
+				// "onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 打卡站点列表页面---------------------》
+		{
+			"path": "pages/clockingstation/index",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				},
+				"enablePullDownRefresh": true, //设置参数为true,触底函数
+				"onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 打卡站点详情打卡页面--------------------》
+		{
+			"path": "pages/clockingstation/item",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+				// "enablePullDownRefresh": true, //设置参数为true,触底函数
+				// "onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		//  台账上传列表页面--------------------》 
+		{
+			"path": "pages/accountreporting/index",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false 
+				},
+				"enablePullDownRefresh": true, //设置参数为true,触底函数
+				"onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 台账上传详情打卡页面--------------------》
+		{
+			"path": "pages/accountreporting/item",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+				// "enablePullDownRefresh": true, //设置参数为true,触底函数
+				// "onReachBottomDistance":50 //距离底部多远时触发 单位为px
+			}
+		},
+		// 报警记录-报警记录列表
+		{
+			"path": "pages/alarmmanagement/index",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				},
+				"enablePullDownRefresh": true, //设置参数为true,触底函数
+				"onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 报警记录-报警记录详情
+		{
+			"path": "pages/alarmmanagement/item",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+				// "enablePullDownRefresh": true, //设置参数为true,触底函数
+				// "onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 污染源排口---水质检测点---污水站排口---城市管网
+		{
+			"path": "pages/sortord/index",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				},
+				"enablePullDownRefresh": true, //设置参数为true,触底函数
+				"onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 未读报警记录---未处理预警记录
+		{
+			"path": "pages/unreadalert/index",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+				// "enablePullDownRefresh": true, //设置参数为true,触底函数
+				// "onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 数据查询--列表页
+		{
+			"path": "pages/dataquery/index",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+				// "enablePullDownRefresh": true, //设置参数为true,触底函数
+				// "onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 数据查询--数据查询列曲线图
+		{
+			"path": "pages/dataquery/item",
+			 "enablePullDownRefresh": true,
+			 "pageOrientation": "auto", //开启自动旋转屏幕
+			 "style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+				// "enablePullDownRefresh": true, //设置参数为true,触底函数
+				// "onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			 }
+		},
+		// 更新
+		{
+			"path": "pages/fullScreen/fullScreen",
+			"style": {
+				"navigationStyle": "custom",  // 取消本页面的导航栏
+				"app-plus": {
+					"animationType": "fade-in", // 设置fade-in淡入动画，为最合理的动画类型
+					"background": "transparent", // 背景透明
+					"backgroundColor": "rgba(0,0,0,0)", // 背景透明
+					"popGesture": "none" // 关闭IOS屏幕左边滑动关闭当前页面的功能
+				}
+			}
+		},
+		// 切换通知--------------------------------》
+		{
+			"path": "pages/tabbar/message",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				},
+				"enablePullDownRefresh": true, //设置参数为true,触底函数
+				"onReachBottomDistance":150 //距离底部多远时触发 单位为px
+			}
+		},
+		// 巡检记录详情
+		{
+			"path": "pages/message/messagedetail",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+				// "enablePullDownRefresh": true, //设置参数为true,触底函数
+				// "onReachBottomDistance":50 //距离底部多远时触发 单位为px
+			}
+		},
+		
+		// 切换栏我的------------------------------>
+		{
+			"path": "pages/tabbar/my",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/test/test",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"titleNView": false
+				}
+			}
+		}
+		
+		
+		
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "环保App",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
